@@ -1,1 +1,1 @@
-print("Эво проект")
+print("Hello, world")
