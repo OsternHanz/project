@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <project>
+      <id>112983</id>
+      <name>ship</name>
+      <bugtracker></bugtracker>
+      <created>2024-03-05 15:07:28.555626+00:00</created>
+      <updated>2024-03-05 15:42:20.303068+00:00</updated>
+      <tasks>
+        <task>
+          <id>538727</id>
+          <name>task1</name>
+          <size>82</size>
+          <mode>annotation</mode>
+          <overlap>0</overlap>
+          <bugtracker></bugtracker>
+          <created>2024-03-05 15:11:59.384969+00:00</created>
+          <updated>2024-03-05 15:42:57.489173+00:00</updated>
+          <subset>default</subset>
+          <start_frame>0</start_frame>
+          <stop_frame>81</stop_frame>
+          <frame_filter></frame_filter>
+          <segments>
+            <segment>
+              <id>623333</id>
+              <start>0</start>
+              <stop>81</stop>
+              <url>https://app.cvat.ai/api/jobs/622062</url>
+            </segment>
+          </segments>
+          <owner>
+            <username>ostern</username>
+            <email>nikitastarodub0@gmail.com</email>
+          </owner>
+          <assignee></assignee>
+        </task>
+      </tasks>
+      <subsets>default</subsets>
+      <owner>
+        <username>ostern</username>
+        <email>nikitastarodub0@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>ship</name>
+          <color>#474403</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </project>
+    <dumped>2024-03-13 18:09:35.869418+00:00</dumped>
+  </meta>
+  <image id="0" name="boat600.png" subset="default" task_id="538727" width="400" height="346">
+    <box label="ship" source="manual" occluded="0" xtl="113.29" ytl="107.15" xbr="152.55" ybr="159.50" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="boat601.png" subset="default" task_id="538727" width="466" height="486">
+    <box label="ship" source="manual" occluded="0" xtl="210.62" ytl="270.59" xbr="314.02" ybr="305.06" z_order="0">
+    </box>
+    <box label="ship" source="manual" occluded="0" xtl="168.11" ytl="364.80" xbr="317.47" ybr="446.95" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="boat602.png" subset="default" task_id="538727" width="542" height="508">
+    <box label="ship" source="manual" occluded="0" xtl="245.21" ytl="193.33" xbr="347.89" ybr="288.80" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="boat603.png" subset="default" task_id="538727" width="580" height="558">
+    <box label="ship" source="manual" occluded="0" xtl="205.57" ytl="199.17" xbr="360.57" ybr="347.58" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="boat604.png" subset="default" task_id="538727" width="232" height="242">
+    <box label="ship" source="manual" occluded="0" xtl="114.28" ytl="101.55" xbr="162.05" ybr="151.33" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="boat605.png" subset="default" task_id="538727" width="392" height="400">
+    <box label="ship" source="manual" occluded="0" xtl="189.11" ytl="180.71" xbr="224.28" ybr="321.42" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="boat606.png" subset="default" task_id="538727" width="468" height="440">
+    <box label="ship" source="manual" occluded="0" xtl="172.15" ytl="139.51" xbr="211.47" ybr="228.75" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="boat608.png" subset="default" task_id="538727" width="400" height="369">
+  </image>
+  <image id="8" name="boat609.png" subset="default" task_id="538727" width="412" height="414">
+    <box label="ship" source="manual" occluded="0" xtl="203.60" ytl="211.10" xbr="293.44" ybr="344.99" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="boat610.png" subset="default" task_id="538727" width="394" height="400">
+    <box label="ship" source="manual" occluded="0" xtl="121.47" ytl="131.91" xbr="278.64" ybr="310.07" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="boat611.png" subset="default" task_id="538727" width="440" height="440">
+    <box label="ship" source="manual" occluded="0" xtl="299.78" ytl="167.59" xbr="362.19" ybr="236.87" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="boat612.png" subset="default" task_id="538727" width="348" height="332">
+    <box label="ship" source="manual" occluded="0" xtl="141.89" ytl="133.51" xbr="194.64" ybr="182.96" z_order="0">
+    </box>
+    <box label="ship" source="manual" occluded="0" xtl="290.23" ytl="267.25" xbr="330.26" ybr="312.46" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="boat613.png" subset="default" task_id="538727" width="400" height="369">
+  </image>
+  <image id="13" name="boat614.png" subset="default" task_id="538727" width="588" height="584">
+    <box label="ship" source="manual" occluded="0" xtl="253.27" ytl="233.97" xbr="341.08" ybr="336.69" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="boat615.png" subset="default" task_id="538727" width="446" height="444">
+    <box label="ship" source="manual" occluded="0" xtl="295.94" ytl="174.14" xbr="335.62" ybr="215.71" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="boat616.png" subset="default" task_id="538727" width="406" height="374">
+    <box label="ship" source="manual" occluded="0" xtl="142.44" ytl="130.77" xbr="231.03" ybr="170.02" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="boat617.png" subset="default" task_id="538727" width="434" height="368">
+    <box label="ship" source="manual" occluded="0" xtl="71.32" ytl="304.59" xbr="147.00" ybr="367.23" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="boat618.png" subset="default" task_id="538727" width="400" height="370">
+    <box label="ship" source="manual" occluded="0" xtl="149.57" ytl="107.84" xbr="228.82" ybr="265.82" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="boat619.png" subset="default" task_id="538727" width="468" height="476">
+    <box label="ship" source="manual" occluded="0" xtl="233.22" ytl="275.15" xbr="289.26" ybr="383.86" z_order="0">
+    </box>
+    <box label="ship" source="manual" occluded="0" xtl="362.18" ytl="283.25" xbr="401.34" ybr="369.00" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="boat620.png" subset="default" task_id="538727" width="444" height="440">
+    <box label="ship" source="manual" occluded="0" xtl="73.97" ytl="78.34" xbr="220.02" ybr="201.29" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="boat621.png" subset="default" task_id="538727" width="254" height="254">
+    <box label="ship" source="manual" occluded="0" xtl="82.29" ytl="39.80" xbr="201.18" ybr="88.81" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="boat622.png" subset="default" task_id="538727" width="400" height="376">
+    <box label="ship" source="manual" occluded="0" xtl="98.61" ytl="144.80" xbr="278.35" ybr="197.07" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="boat623.png" subset="default" task_id="538727" width="432" height="402">
+    <box label="ship" source="manual" occluded="0" xtl="209.06" ytl="117.77" xbr="239.85" ybr="177.07" z_order="0">
+    </box>
+    <box label="ship" source="manual" occluded="0" xtl="158.31" ytl="186.19" xbr="193.09" ybr="240.93" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="boat625.png" subset="default" task_id="538727" width="346" height="318">
+    <box label="ship" source="manual" occluded="0" xtl="179.71" ytl="45.34" xbr="270.38" ybr="103.98" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="boat626.png" subset="default" task_id="538727" width="254" height="208">
+    <box label="ship" source="manual" occluded="0" xtl="89.48" ytl="43.52" xbr="154.10" ybr="73.02" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="boat627.png" subset="default" task_id="538727" width="400" height="243">
+  </image>
+  <image id="26" name="boat628.png" subset="default" task_id="538727" width="314" height="288">
+    <box label="ship" source="manual" occluded="0" xtl="145.93" ytl="115.41" xbr="183.10" ybr="184.86" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="boat629.png" subset="default" task_id="538727" width="400" height="243">
+    <box label="ship" source="manual" occluded="0" xtl="67.93" ytl="190.26" xbr="161.68" ybr="219.56" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="boat630.png" subset="default" task_id="538727" width="484" height="432">
+    <box label="ship" source="manual" occluded="0" xtl="284.80" ytl="303.00" xbr="412.26" ybr="371.63" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="boat633.png" subset="default" task_id="538727" width="462" height="448">
+    <box label="ship" source="manual" occluded="0" xtl="216.94" ytl="223.36" xbr="342.13" ybr="306.61" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="boat634.png" subset="default" task_id="538727" width="400" height="369">
+  </image>
+  <image id="31" name="boat635.png" subset="default" task_id="538727" width="394" height="400">
+    <box label="ship" source="manual" occluded="0" xtl="149.28" ytl="108.65" xbr="244.03" ybr="169.93" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="boat636.png" subset="default" task_id="538727" width="400" height="400">
+    <box label="ship" source="manual" occluded="0" xtl="112.00" ytl="120.00" xbr="274.27" ybr="203.40" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="boat637.png" subset="default" task_id="538727" width="446" height="444">
+    <box label="ship" source="manual" occluded="0" xtl="143.50" ytl="164.06" xbr="291.53" ybr="304.51" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="boat638.png" subset="default" task_id="538727" width="520" height="504">
+    <box label="ship" source="manual" occluded="0" xtl="215.58" ytl="141.16" xbr="271.34" ybr="244.10" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="boat641.png" subset="default" task_id="538727" width="394" height="446">
+    <box label="ship" source="manual" occluded="0" xtl="96.97" ytl="295.74" xbr="157.70" ybr="343.19" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="boat642.png" subset="default" task_id="538727" width="528" height="520">
+    <box label="ship" source="manual" occluded="0" xtl="221.13" ytl="190.67" xbr="359.80" ybr="321.22" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="boat643.png" subset="default" task_id="538727" width="374" height="368">
+    <box label="ship" source="manual" occluded="0" xtl="161.36" ytl="105.19" xbr="219.82" ybr="137.03" z_order="0">
+    </box>
+    <box label="ship" source="manual" occluded="0" xtl="240.70" ytl="267.53" xbr="304.38" ybr="309.29" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="boat644.png" subset="default" task_id="538727" width="332" height="302">
+    <box label="ship" source="manual" occluded="0" xtl="129.11" ytl="150.14" xbr="282.46" ybr="221.68" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="boat645.png" subset="default" task_id="538727" width="584" height="592">
+    <box label="ship" source="manual" occluded="0" xtl="324.60" ytl="188.48" xbr="416.12" ybr="461.39" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="boat646.png" subset="default" task_id="538727" width="488" height="492">
+    <box label="ship" source="manual" occluded="0" xtl="197.82" ytl="185.96" xbr="301.80" ybr="280.87" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="boat647.png" subset="default" task_id="538727" width="568" height="564">
+    <box label="ship" source="manual" occluded="0" xtl="142.32" ytl="190.00" xbr="393.52" ybr="350.80" z_order="0">
+    </box>
+  </image>
+  <image id="42" name="boat648.png" subset="default" task_id="538727" width="400" height="358">
+  </image>
+  <image id="43" name="boat649.png" subset="default" task_id="538727" width="564" height="528">
+    <box label="ship" source="manual" occluded="0" xtl="168.04" ytl="87.23" xbr="229.45" ybr="284.20" z_order="0">
+    </box>
+  </image>
+  <image id="44" name="boat651.png" subset="default" task_id="538727" width="400" height="369">
+    <box label="ship" source="manual" occluded="0" xtl="60.20" ytl="90.56" xbr="83.23" ybr="150.75" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="boat652.png" subset="default" task_id="538727" width="400" height="243">
+    <box label="ship" source="manual" occluded="0" xtl="114.81" ytl="17.23" xbr="173.06" ybr="197.50" z_order="0">
+    </box>
+  </image>
+  <image id="46" name="boat653.png" subset="default" task_id="538727" width="324" height="204">
+    <box label="ship" source="manual" occluded="0" xtl="141.70" ytl="118.78" xbr="174.40" ybr="181.57" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="boat654.png" subset="default" task_id="538727" width="444" height="402">
+    <box label="ship" source="manual" occluded="0" xtl="135.27" ytl="118.34" xbr="190.01" ybr="166.80" z_order="0">
+    </box>
+  </image>
+  <image id="48" name="boat655.png" subset="default" task_id="538727" width="552" height="500">
+    <box label="ship" source="manual" occluded="0" xtl="127.66" ytl="147.16" xbr="269.50" ybr="212.41" z_order="0">
+    </box>
+  </image>
+  <image id="49" name="boat656.png" subset="default" task_id="538727" width="356" height="350">
+    <box label="ship" source="manual" occluded="0" xtl="76.64" ytl="84.63" xbr="183.87" ybr="181.44" z_order="0">
+    </box>
+  </image>
+  <image id="50" name="boat657.png" subset="default" task_id="538727" width="400" height="382">
+    <box label="ship" source="manual" occluded="0" xtl="159.85" ytl="144.41" xbr="251.96" ybr="289.62" z_order="0">
+    </box>
+  </image>
+  <image id="51" name="boat658.png" subset="default" task_id="538727" width="312" height="306">
+    <box label="ship" source="manual" occluded="0" xtl="155.94" ytl="143.87" xbr="181.54" ybr="188.58" z_order="0">
+    </box>
+  </image>
+  <image id="52" name="boat659.png" subset="default" task_id="538727" width="342" height="332">
+    <box label="ship" source="manual" occluded="0" xtl="135.63" ytl="137.28" xbr="176.13" ybr="159.88" z_order="0">
+    </box>
+  </image>
+  <image id="53" name="boat660.png" subset="default" task_id="538727" width="400" height="369">
+    <box label="ship" source="manual" occluded="0" xtl="78.52" ytl="42.41" xbr="92.65" ybr="83.23" z_order="0">
+    </box>
+    <box label="ship" source="manual" occluded="0" xtl="131.38" ytl="318.24" xbr="145.52" ybr="346.50" z_order="0">
+    </box>
+  </image>
+  <image id="54" name="boat661.png" subset="default" task_id="538727" width="374" height="334">
+    <box label="ship" source="manual" occluded="0" xtl="158.03" ytl="105.87" xbr="220.56" ybr="173.61" z_order="0">
+    </box>
+  </image>
+  <image id="55" name="boat662.png" subset="default" task_id="538727" width="526" height="516">
+    <box label="ship" source="manual" occluded="0" xtl="278.28" ytl="210.43" xbr="434.91" ybr="375.11" z_order="0">
+    </box>
+  </image>
+  <image id="56" name="boat663.png" subset="default" task_id="538727" width="492" height="454">
+    <box label="ship" source="manual" occluded="0" xtl="172.50" ytl="98.22" xbr="247.17" ybr="157.46" z_order="0">
+    </box>
+    <box label="ship" source="manual" occluded="0" xtl="196.90" ytl="133.64" xbr="277.43" ybr="187.09" z_order="0">
+    </box>
+  </image>
+  <image id="57" name="boat664.png" subset="default" task_id="538727" width="400" height="312">
+    <box label="ship" source="manual" occluded="0" xtl="170.74" ytl="114.84" xbr="188.00" ybr="188.75" z_order="0">
+    </box>
+  </image>
+  <image id="58" name="boat665.png" subset="default" task_id="538727" width="438" height="414">
+    <box label="ship" source="manual" occluded="0" xtl="227.72" ytl="249.86" xbr="285.27" ybr="314.46" z_order="0">
+    </box>
+    <box label="ship" source="manual" occluded="0" xtl="164.89" ytl="299.78" xbr="235.95" ybr="360.85" z_order="0">
+    </box>
+    <box label="ship" source="manual" occluded="0" xtl="274.12" ytl="189.96" xbr="332.84" ybr="259.85" z_order="0">
+    </box>
+  </image>
+  <image id="59" name="boat666.png" subset="default" task_id="538727" width="336" height="344">
+    <box label="ship" source="manual" occluded="0" xtl="87.91" ytl="139.29" xbr="169.40" ybr="181.74" z_order="0">
+    </box>
+  </image>
+  <image id="60" name="boat669.png" subset="default" task_id="538727" width="430" height="404">
+    <box label="ship" source="manual" occluded="0" xtl="35.56" ytl="93.67" xbr="126.67" ybr="187.07" z_order="0">
+    </box>
+  </image>
+  <image id="61" name="boat670.png" subset="default" task_id="538727" width="422" height="384">
+    <box label="ship" source="manual" occluded="0" xtl="99.82" ytl="142.41" xbr="170.08" ybr="187.62" z_order="0">
+    </box>
+  </image>
+  <image id="62" name="boat671.png" subset="default" task_id="538727" width="418" height="426">
+    <box label="ship" source="manual" occluded="0" xtl="143.67" ytl="248.02" xbr="201.68" ybr="286.09" z_order="0">
+    </box>
+  </image>
+  <image id="63" name="boat672.png" subset="default" task_id="538727" width="422" height="364">
+    <box label="ship" source="manual" occluded="0" xtl="182.03" ytl="138.61" xbr="230.56" ybr="233.09" z_order="0">
+    </box>
+  </image>
+  <image id="64" name="boat673.png" subset="default" task_id="538727" width="272" height="270">
+    <box label="ship" source="manual" occluded="0" xtl="130.57" ytl="69.49" xbr="157.00" ybr="132.30" z_order="0">
+    </box>
+  </image>
+  <image id="65" name="boat675.png" subset="default" task_id="538727" width="362" height="354">
+    <box label="ship" source="manual" occluded="0" xtl="144.76" ytl="208.13" xbr="238.16" ybr="256.33" z_order="0">
+    </box>
+  </image>
+  <image id="66" name="boat676.png" subset="default" task_id="538727" width="314" height="324">
+    <box label="ship" source="manual" occluded="0" xtl="35.59" ytl="80.17" xbr="134.40" ybr="186.83" z_order="0">
+    </box>
+  </image>
+  <image id="67" name="boat677.png" subset="default" task_id="538727" width="400" height="243">
+    <box label="ship" source="manual" occluded="0" xtl="152.38" ytl="132.01" xbr="173.40" ybr="150.27" z_order="0">
+    </box>
+  </image>
+  <image id="68" name="boat678.png" subset="default" task_id="538727" width="238" height="232">
+    <box label="ship" source="manual" occluded="0" xtl="101.52" ytl="112.05" xbr="153.51" ybr="137.06" z_order="0">
+    </box>
+  </image>
+  <image id="69" name="boat679.png" subset="default" task_id="538727" width="378" height="350">
+    <box label="ship" source="manual" occluded="0" xtl="48.44" ytl="56.83" xbr="158.16" ybr="164.56" z_order="0">
+    </box>
+  </image>
+  <image id="70" name="boat680.png" subset="default" task_id="538727" width="397" height="400">
+    <box label="ship" source="manual" occluded="0" xtl="249.19" ytl="113.19" xbr="297.99" ybr="171.63" z_order="0">
+    </box>
+  </image>
+  <image id="71" name="boat681.png" subset="default" task_id="538727" width="488" height="484">
+    <box label="ship" source="manual" occluded="0" xtl="159.48" ytl="84.10" xbr="217.15" ybr="199.43" z_order="0">
+    </box>
+  </image>
+  <image id="72" name="boat682.png" subset="default" task_id="538727" width="556" height="528">
+    <box label="ship" source="manual" occluded="0" xtl="229.98" ytl="157.63" xbr="302.62" ybr="288.69" z_order="0">
+    </box>
+  </image>
+  <image id="73" name="boat683.png" subset="default" task_id="538727" width="394" height="400">
+    <box label="ship" source="manual" occluded="0" xtl="126.58" ytl="162.55" xbr="171.40" ybr="194.89" z_order="0">
+    </box>
+  </image>
+  <image id="74" name="boat685.png" subset="default" task_id="538727" width="452" height="448">
+    <box label="ship" source="manual" occluded="0" xtl="276.11" ytl="117.88" xbr="356.17" ybr="188.41" z_order="0">
+    </box>
+    <box label="ship" source="manual" occluded="0" xtl="207.50" ytl="316.14" xbr="302.80" ybr="393.67" z_order="0">
+    </box>
+  </image>
+  <image id="75" name="boat687.png" subset="default" task_id="538727" width="384" height="350">
+    <box label="ship" source="manual" occluded="0" xtl="96.60" ytl="258.39" xbr="180.00" ybr="308.53" z_order="0">
+    </box>
+  </image>
+  <image id="76" name="boat688.png" subset="default" task_id="538727" width="422" height="364">
+    <box label="ship" source="manual" occluded="0" xtl="184.61" ytl="142.22" xbr="231.08" ybr="233.61" z_order="0">
+    </box>
+  </image>
+  <image id="77" name="boat689.png" subset="default" task_id="538727" width="328" height="380">
+    <box label="ship" source="manual" occluded="0" xtl="226.99" ytl="143.66" xbr="259.87" ybr="231.52" z_order="0">
+    </box>
+  </image>
+  <image id="78" name="boat690.png" subset="default" task_id="538727" width="400" height="243">
+  </image>
+  <image id="79" name="boat691.png" subset="default" task_id="538727" width="400" height="366">
+    <box label="ship" source="manual" occluded="0" xtl="126.70" ytl="105.63" xbr="200.94" ybr="246.83" z_order="0">
+    </box>
+  </image>
+  <image id="80" name="boat692.png" subset="default" task_id="538727" width="490" height="446">
+    <box label="ship" source="manual" occluded="0" xtl="166.49" ytl="123.03" xbr="251.90" ybr="191.99" z_order="0">
+    </box>
+  </image>
+  <image id="81" name="boat693.png" subset="default" task_id="538727" width="460" height="482">
+    <box label="ship" source="manual" occluded="0" xtl="198.44" ytl="169.87" xbr="270.23" ybr="286.78" z_order="0">
+    </box>
+  </image>
+</annotations>
