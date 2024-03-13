@@ -22,6 +22,7 @@ for image_elem in root.findall("image"):
         ymax = int(float(box.get("ybr")))
         object_img = img.crop((xmin, ymin, xmax, ymax))
         name = ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(10))
+<<<<<<< HEAD
         '''if i<50:
             object_path = os.path.join("datasets/aircraft", f'{name}.jpg')
             object_img.save(object_path)
@@ -38,12 +39,34 @@ ship_border=round(ship_len*0.8)
 ship_file=os.listdir("datasets/ship")
 j=0
 '''for i in air_file:
+=======
+        if i<50:
+            object_path = os.path.join("datasets/aircraft", f'{name}.jpg')
+            object_img.save(object_path)
+        else:
+           object_path = os.path.join("datasets/ship", f'{name}.jpg')
+           object_img.save(object_path)
+    i+=1
+
+air_len=len(os.listdir("datasets/aircraft"))
+ship_len=len(os.listdir("datasets/ship"))
+air_border=round(air_len*0.8)
+ship_border=round(ship_len*0.8)
+air_file=os.listdir("datasets/aircraft")
+ship_file=os.listdir("datasets/ship")
+j=0
+for i in air_file:
+>>>>>>> c83e9f2f6453f4b5b243739948ea80753d2bd72e
     file_path = os.path.join("datasets/aircraft", i)
     if j<=air_border:
         shutil.move(file_path, "datasets/train/aircraft")
     else:
         shutil.move(file_path, "datasets/test/aircraft")
+<<<<<<< HEAD
     j+=1'''
+=======
+    j+=1
+>>>>>>> c83e9f2f6453f4b5b243739948ea80753d2bd72e
 j=0
 for i in ship_file:
     file_path = os.path.join("datasets/ship", i)
@@ -52,5 +75,9 @@ for i in ship_file:
     else:
         shutil.move(file_path, "datasets/test/ship")
     j+=1
+<<<<<<< HEAD
 #shutil.rmtree("datasets/aircraft")
+=======
+shutil.rmtree("datasets/aircraft")
+>>>>>>> c83e9f2f6453f4b5b243739948ea80753d2bd72e
 shutil.rmtree("datasets/ship")

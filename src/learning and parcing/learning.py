@@ -71,7 +71,11 @@ resnet18.fc=torch.nn.Sequential(
     torch.nn.Linear(500, 2)
 )
 '''
+<<<<<<< HEAD
 model=training_iteration("resnet50")
+=======
+model=training_iteration("resnet18")
+>>>>>>> c83e9f2f6453f4b5b243739948ea80753d2bd72e
 for name, param in model.named_parameters():
     param.requires_grad = False
 model.fc=torch.nn.Sequential(
@@ -85,7 +89,11 @@ if torch.cuda.is_available():
 else:
     device = torch.device("cpu")
 model.to(device)
+<<<<<<< HEAD
 epochs = 10
+=======
+epochs = 5
+>>>>>>> c83e9f2f6453f4b5b243739948ea80753d2bd72e
 '''resnet18
 optimizer18=torch.optim.Adam(resnet18.parameters(), lr=0.001)
 '''
@@ -100,6 +108,7 @@ best_acc = 0
 transform = transforms.Compose([
       transforms.Resize(256),
       transforms.CenterCrop(224),
+<<<<<<< HEAD
       transforms.RandomHorizontalFlip(),
       transforms.RandomRotation(15),
       transforms.ToTensor(),
@@ -107,6 +116,13 @@ transform = transforms.Compose([
 ])
 train_path = r"C:\Users\User'\Desktop\project\src\datasets\train"
 test_path  = r"C:\Users\User'\Desktop\project\src\datasets\test"
+=======
+      transforms.ToTensor(),
+      transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+])
+train_path = r"datasets\\train"
+test_path  = r"datasets\\test"
+>>>>>>> c83e9f2f6453f4b5b243739948ea80753d2bd72e
 train_data = dataset.ImageFolder(train_path, transform)
 test_data = dataset.ImageFolder(test_path, transform)
 train_loader_1 = DataLoader(train_data, batch_size=16, shuffle=True)
@@ -139,5 +155,9 @@ for epoch in range(epochs):
     print(f'\tTrain Loss: {train_loss:.3f} | Train Acc: {train_acc*100:.2f}%')
     print(f'\t Val. Loss: {test_loss:.3f} |  Val. Acc: {test_acc*100:.2f}%')
     if test_loss < best_loss:
+<<<<<<< HEAD
         torch.save(model, "resnet50_best_loss.pth")
+=======
+        torch.save(model, "resnet18_best_loss.pth")
+>>>>>>> c83e9f2f6453f4b5b243739948ea80753d2bd72e
         best_loss=test_loss
