@@ -1,0 +1,8 @@
+path: C:\Users\User'\Desktop\project\src\yolov8\data
+train: obj_Train_data
+val: obj_Train_data
+test: obj_Train_data
+
+names:
+  0: ship
+  1: aircraft
