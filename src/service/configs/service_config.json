@@ -1,0 +1,6 @@
+{
+    "name_of_classifier": "resnet50",
+    "path_to_classifier": "resnet50_best_loss.pt",
+    "name_of_detector": "yolov8",
+    "path_to_detector": "best.pt"
+}
